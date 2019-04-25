@@ -4,6 +4,10 @@ package com.yannitech.state.model;
 		
 		WAIT_NEW_ORDER,
 		RECEIVE_ORDER,
+		CHOICE,
+		FORK,
+		HANDLE_ORDER,
+		JUNCTION,
 		CHECK_STOCK,
 		MAKE_PRODUCTION_PLAN,
 		PRODUCE,
@@ -14,6 +18,7 @@ package com.yannitech.state.model;
 		SEND_REMINDER,
 		HANDLE_PAYMENT,
 		NOTIFY_CUSTOMER,
+		JOIN,
 		WAIT_ORDER,
 		SHIP_ORDER;
 		
